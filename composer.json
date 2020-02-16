@@ -1,0 +1,31 @@
+{
+    "name": "adam-crossland/teamwork-api",
+    "type": "library",
+    "description": "Client for Teamwork Api",
+    "keywords": [
+        "Teamwork",
+        "Api",
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client",
+        "HTTP client"
+    ],
+    "authors": [
+        {
+            "name": "Adam Crossland"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-json": "*",
+        "galbar/jsonpath": "dev-master",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeamworkApi\\": "src/"
+        }
+    }
+}
